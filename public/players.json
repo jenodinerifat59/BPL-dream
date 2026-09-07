@@ -1,0 +1,82 @@
+[
+  {
+    "id" : 1,
+    "name": "Virat Kohli",
+    "img": "https://example.com/virat-kohli.jpg",
+    "origin": "India",
+    "price": 15000000,
+    "position": "Batter"
+  },
+  {
+    "id" : 2,
+    "name": "Babar Azam",
+    "img": "https://example.com/babar-azam.jpg",
+    "origin": "Pakistan",
+    "price": 14000000,
+    "position": "Batter"
+  },
+  {
+   "id" : 3,
+    "name": "Shakib Al Hasan",
+    "img": "https://example.com/shakib-al-hasan.jpg",
+    "origin": "Bangladesh",
+    "price": 12000000,
+    "position": "Allrounder"
+  },
+  {
+     "id" : 4,
+    "name": "Rashid Khan",
+    "img": "https://example.com/rashid-khan.jpg",
+    "origin": "Afghanistan",
+    "price": 13000000,
+    "position": "Bowler"
+  },
+  {
+    "id": 5,
+    "name": "Jasprit Bumrah",
+    "img": "https://example.com/jasprit-bumrah.jpg",
+    "origin": "India",
+    "price": 16000000,
+    "position": "Bowler"
+  },
+  {
+    "id" : 6,
+    "name": "Ben Stokes",
+    "img": "https://example.com/ben-stokes.jpg",
+    "origin": "England",
+    "price": 14500000,
+    "position": "Allrounder"
+  },
+  {
+    "id" : 7,
+    "name": "Joe Root",
+    "img": "https://example.com/joe-root.jpg",
+    "origin": "England",
+    "price": 11000000,
+    "position": "Batter"
+  },
+  {
+    "id" : 8 ,
+    "name": "Shaheen Afridi",
+    "img": "https://example.com/shaheen-afridi.jpg",
+    "origin": "Pakistan",
+    "price": 12500000,
+    "position": "Bowler"
+  },
+  {
+    "id" : 9 ,
+    "name": "Mustafizur Rahman",
+    "img": "https://example.com/mustafizur.jpg",
+    "origin": "Bangladesh",
+    "price": 9000000,
+    "position": "Bowler"
+  },
+  {
+    "id" : 10,
+    "name": "Liam Livingstone",
+    "img": "https://example.com/liam-livingstone.jpg",
+    "origin": "England",
+    "price": 10000000,
+    "position": "Allrounder"
+  }
+]
