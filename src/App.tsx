@@ -1,4 +1,4 @@
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
 import Baner from "./component/Baner"
 import Nav from "./component/Nav"
 import Players from "./component/players/Players"
@@ -10,13 +10,15 @@ const playersFatch = async():Promise<PlayerType>=>{
   return data;
 }
 const App = () => {
-  const playersPromis = playersFatch()
+  // const playersPromis = playersFatch()
+  const [playersPromis] = useState(()=>playersFatch())
+   const [coin,setCoin] = useState(50000000)
   return (
     <div className="container mx-auto">
-      <Nav/>
+      <Nav coin={coin}/>
       <Baner/>
       <Suspense fallback="lodding...............">
-              <Players playersPromis={playersPromis}/> 
+              <Players playersPromis={playersPromis} coin={coin} setCoin={setCoin}/> 
       </Suspense>
     </div>
   )
