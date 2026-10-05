@@ -1,75 +1,61 @@
-# React + TypeScript + Vite
+# 🏏 BPL Dream
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About The Project
 
-Currently, two official plugins are available:
+BPL Dream is a modern and responsive cricket-themed website inspired by the excitement of the **Bangladesh Premier League (BPL)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project was created to practice core frontend development skills using HTML, CSS, and JavaScript. It focuses on creating an attractive cricket-themed interface with a clean layout, responsive design, and interactive elements.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* HTML5
+* CSS3
+* TypeScript
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🏏 Cricket-Themed Design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* BPL-inspired visual design.
+* Attractive cricket-focused sections.
+* Clean and organized content layout.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🎨 Modern User Interface
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Attractive cards and sections.
+* Clean typography and spacing.
+* User-friendly navigation.
 
+### ⚡ JavaScript Interaction
+
+* Interactive elements using JavaScript.
+* Dynamic user interactions.
+* Smooth browsing experience.
+
+### 📱 Responsive Design
+
+* Responsive layout for different screen sizes.
+* Mobile-friendly interface.
+* Optimized for desktop, tablet, and mobile devices.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd bpl-dream
 ```
+
+Then open the `index.html` file in your browser.
+
+## 👨‍💻 Developer
+
+**MD. Jenodine Islam Rifat**
+
+Frontend Developer | HTML | CSS | TypeScript
